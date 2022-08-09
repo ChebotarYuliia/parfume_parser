@@ -34,7 +34,7 @@ async function createForm() {
                                     <ul class="notes-list">
                                         ${notes(data[i])}
                                     </ul>
-                                    <input value="cfv" class="input" type="text" placeholder="Enter custom parfume №" data-answer=${data[i]?.customNumber}>
+                                    <input class="input" type="text" placeholder="Enter custom parfume №" data-answer=${data[i]?.customNumber}>
                                 </div>
                             </div>
                         `;
